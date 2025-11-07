@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  margin: 0; /* removes default whitespace */
+  margin: 0;
 }
 
 body {
@@ -11,11 +11,11 @@ body {
 }
 
 #title {
-  color: orange;
+  color: #25a5ff;
   font-weight: bolder;
 }
 
 #subtitle {
-  color: green; /* fixed typo */
+  color: #1494ee;
   font-weight: bold;
 }
