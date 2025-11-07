@@ -1,6 +1,7 @@
 body{
   text-align: center;
   font-family: "Segoe UI", "Arial", sans-serif;
+  background-image: linear-gradient(to bottom, orange, yellow);
 }
 
 #title{
