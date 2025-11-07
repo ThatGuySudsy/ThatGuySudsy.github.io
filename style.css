@@ -4,9 +4,11 @@ body{
 }
 
 #title{
-  color: 255, 255, 0;
+  color: orange;
+  font-weight: bolder;
 }
 
 #subtitle{
-  collor: 0, 255, 0;
+  collor: green;
+  font-weight: bold;
 }
