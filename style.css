@@ -10,13 +10,23 @@ body {
   background-size: cover;
 }
 
+button {
+    background-color: rgb(105, 146, 243);
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 #title {
-  color: #25a5ff;
+  color: rgb(105, 146, 243);;
   font-weight: bolder;
 }
 
 #subtitle {
-  color: #1494ee;
+  color: rgb(85, 126, 223);;
   font-weight: bold;
 }
 #selectBar {
