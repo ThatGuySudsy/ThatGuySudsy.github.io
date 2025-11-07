@@ -1,20 +1,21 @@
-body{
-  text-align: center;
-  font-family: "Segoe UI", "Arial", sans-serif;
-  background-image: linear-gradient(to bottom, orange, yellow);
+html, body {
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  margin: 0; /* removes default whitespace */
 }
 
-#title{
+body {
+  text-align: center;
+  font-family: "Segoe UI", "Arial", sans-serif;
+  background: linear-gradient(to bottom, orange, yellow);
+  background-size: cover;
+}
+
+#title {
   color: orange;
   font-weight: bolder;
 }
 
-#subtitle{
-  collor: green;
+#subtitle {
+  color: green; /* fixed typo */
   font-weight: bold;
 }
