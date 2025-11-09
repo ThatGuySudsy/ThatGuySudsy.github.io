@@ -20,6 +20,10 @@ button {
     cursor: pointer;
 }
 
+.back {
+  text-align: center;
+}
+
 #title {
   color: rgb(105, 146, 243);;
   font-weight: bolder;
