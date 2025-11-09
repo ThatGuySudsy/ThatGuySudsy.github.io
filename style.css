@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  text-align: center;
+  algin: center;
   font-family: "Segoe UI", "Arial", sans-serif;
   background: linear-gradient(to bottom, orange, yellow);
   background-size: cover;
@@ -21,7 +21,7 @@ button {
 }
 
 .back {
-  text-align: left;
+  align: left;
 }
 
 #title {
