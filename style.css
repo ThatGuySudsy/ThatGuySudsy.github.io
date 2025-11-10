@@ -18,13 +18,20 @@ body {
 }
 
 button {
-    background-color: rgb(105, 146, 243);
-    color: white;
-    font-size: 18px;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+  background-color: rgb(105, 146, 243);
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2;
+}
+
+button:hover {
+  background: rgb(95, 126, 223);
+  transform: translateY(-2px);
+  transition: 0.2;
 }
 
 .back {
