@@ -7,7 +7,14 @@ body {
   text-align: center;
   font-family: "Segoe UI", "Arial", sans-serif;
   background: linear-gradient(to bottom, orange, yellow);
-  background-size: cover;
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 button {
