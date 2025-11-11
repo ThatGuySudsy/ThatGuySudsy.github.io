@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    font-family:'Courier New';
+}
+
+button {
+    background-color: rgb(105, 146, 243);
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+}
+
+.Level {
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 0px 24px;
+    border-radius: 8px;
+    border: none;
+}
+
+.invisible {
+    opacity: 0;
+    transition: opacity .15s;
+}
+
+.invisible:hover {
+    opacity: 1;
+    transition: opacity .15s;
+}
+
+#scroll:hover {
+    padding: 10000000px 0px;
+    transition: padding 10000s;
+}
+
+#mimickingYes:after {
+  content: "Yes";
+  transition: content .25s;
+}
+
+#mimickingYes:hover:after {
+  content: "No";
+  transition: content .25s;
+}
+
+#mimickingNo:after {
+  content: "No";
+  transition: content .25s;
+}
+
+#mimickingNo:hover:after {
+  content: "Yes";
+  transition: content .25s;
+}
