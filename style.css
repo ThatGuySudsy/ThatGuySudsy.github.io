@@ -34,6 +34,10 @@ button:hover {
   transition: 0.2;
 }
 
+ol {
+  text-align: center;
+}
+
 .card {
   background: rgba(255,255,255,0.2);
   padding: 20px;
