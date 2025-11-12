@@ -6,7 +6,7 @@ html, body {
 body {
   text-align: center;
   font-family: "Segoe UI", "Arial", sans-serif;
-  background: linear-gradient(180deg, orange, yellow);
+  background: linear-gradient(180deg, red, yellow);
   background-size: 400% 400%;
   animation: gradientMove 10s ease infinite;
 }
